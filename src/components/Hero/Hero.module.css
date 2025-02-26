@@ -1,0 +1,100 @@
+/* src/components/Hero/Hero.module.css */
+
+.hero {
+  background-color: white;
+  padding-block: 5rem 2rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  background: hsla(0, 0%, 0%, 1);
+
+background: linear-gradient(90deg, hsla(0, 0%, 0%, 1) 0%, hsla(212, 53%, 25%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(0, 0%, 0%, 1) 0%, hsla(212, 53%, 25%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(0, 0%, 0%, 1) 0%, hsla(212, 53%, 25%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000000", endColorstr="#1E3E62", GradientType=1 );
+}
+
+.content {
+	overflow:hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* transform: translateX(-100%); */
+  opacity: 0;
+  padding: 3rem 2rem;
+ /* transition: transform 0.8s ease-out, opacity 0.8s ease-out; */
+}
+
+.contentAnimated {
+  /*transform: translateX(0);*/
+  opacity: 1;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  font-size: 1rem;
+  color: #7d7d7d;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.ctaButton {
+	flex-shrink: 0;
+	width: max-content;
+  background-color: var(--primary);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.image {
+  display: flex;
+  justify-content: flex-end;
+  /*transform: translateX(100%); /* Posisi awal di luar layar kanan */
+  opacity: 0;
+  /* transition: transform 0.8s ease-out, opacity 0.8s ease-out; */
+}
+
+.imageAnimated {
+ /*  transform: translateX(0); /* Posisi akhir */
+  opacity: 1;
+}
+
+.image img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .content{
+	padding: 3rem 0.5rem;
+  }
+
+  .content,
+  .image {
+    margin-bottom: 2rem;
+  }
+}

@@ -1,0 +1,108 @@
+/* src/components/Header/Header.module.css */
+
+.header {
+  position: fixed; /* Menjadikan header fixed */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 100; /* Memastikan header berada di atas konten lain */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	gap:1rem;
+}
+
+.logo h1{
+	color:#333;
+	font-size: 1.3rem;
+}
+.logo h1>span {
+	color:var(--primary) ;
+}
+
+.logo img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.navLink,
+.ctaButton {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.navLink:hover {
+  background-color: var(--primary);
+  color:white;
+}
+
+.ctaButton {
+  background-color: var(--primary);
+  color: white;
+}
+
+.menuButton {
+  display: none; /* Sembunyikan tombol menu secara default */
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 760px) {
+  .container {
+    flex-direction: row; /* Mengubah flex-direction menjadi row */
+  }
+
+  .nav {
+    display: none; /* Sembunyikan navigasi secara default */
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+    position: absolute; /* Menjadikan navigasi absolute */
+    top: 100%; /* Menempatkan navigasi di bawah header */
+    left: 0;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+  }
+
+  .navOpen {
+    display: flex; /* Tampilkan navigasi saat menu terbuka */
+  }
+
+  .navLink,
+  .ctaButton {
+    margin: 0.5rem 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .menuButton {
+    display: block; /* Tampilkan tombol menu pada layar mobile */
+  }
+}

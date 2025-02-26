@@ -1,0 +1,22 @@
+/* src/components/Footer/Footer.module.css */
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1028px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.container a {
+	all:unset;
+}
+
+.container a:active {
+	color:white;
+}
