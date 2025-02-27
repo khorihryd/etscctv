@@ -35,7 +35,7 @@ const About = () => {
                 <p>Diakui sebagai penyedia layanan terbaik dalam industri keamanan.</p>
               </div>
             </div>
-            <a href="https://wa.me/nomorwhatsapp" className={styles.ctaButton} target="_blank" rel="noopener noreferrer">Hubungi Kami</a>
+            <a href="https://wa.me/085894194036" className={styles.ctaButton} target="_blank" rel="noopener noreferrer">Hubungi Kami</a>
           </div>
         </div>
         <div className={styles.stats}>

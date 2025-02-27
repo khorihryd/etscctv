@@ -16,13 +16,13 @@ const Contact = () => {
 						Telepon: 0858 9455 5220
 					</p>
 					<p>
-						Email: ets_cctv@example.com
+						Email: ets_cctv@gmail.com
 					</p>
 					<p>
 						Alamat: Jl. Raya Cileles Km.07 Kp. Cipandak Desa Muncang Kec. Kec. Cikulur
 					</p>
 				</div>
-				<a href="https://wa.me/nomorwhatsapp" className={styles.ctaButton} target="_blank" rel="noopener noreferrer">WhatsApp</a>
+				<a href="https://wa.me/085894194036" className={styles.ctaButton} target="_blank" rel="noopener noreferrer">WhatsApp</a>
 			</div>
 		</section>
 	);
