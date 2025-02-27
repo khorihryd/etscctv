@@ -125,3 +125,16 @@ gap:2rem;
     grid-template-columns: 1fr;
   }
 }
+
+@media (prefers-color-scheme:dark){
+	.about {
+		background-color: var(--bg-dark);
+		color:var(--title-dark);
+	}
+	.statLabel,.text p {
+		color:var(--subtitle-dark);
+	}
+	.statValue , .text h3{
+		color:var(--title-dark);
+	}
+}

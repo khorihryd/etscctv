@@ -56,3 +56,15 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (prefers-color-scheme:dark){
+	.whyUs {
+		background-color: var(--bg-dark);
+	}
+	.container h2 ,.reason h3 {
+		color:var(--title-dark);
+	}
+	.reason p {
+		color:var(--subtitle-dark);
+	}
+}

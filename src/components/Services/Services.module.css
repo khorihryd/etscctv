@@ -57,3 +57,20 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (prefers-color-scheme:dark){
+	.services {
+		background-color: var(--bg-dark);
+	}
+	.service {
+		background-color: var(--middle-dark);
+		
+	}
+
+	.container h2,	.service h3 {
+	  color:var(--title-dark);
+	}
+	.service p {
+		color:var(--subtitle-dark);
+	}
+}

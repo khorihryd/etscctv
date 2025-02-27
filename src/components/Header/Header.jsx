@@ -32,7 +32,7 @@ const Header = () => {
 				<Link to="/services" className={styles.navLink}>Layanan</Link> {/* Gunakan Link */}
 				<Link to="/packages" className={styles.navLink}>Paket</Link> {/* Gunakan Link */}
 				<Link to="/contact" className={styles.navLink}>Kontak</Link> {/* Gunakan Link */}
-				<a href="https://wa.me/085894194036" className={styles.ctaButton} target="_blank" rel="noopener noreferrer">WhatsApp</a>
+				<a href="https://wa.me/+6285894194036" className={styles.ctaButton} target="_blank" rel="noopener noreferrer">WhatsApp</a>
 			</nav>
 		</div>
 	</header>

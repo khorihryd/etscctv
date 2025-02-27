@@ -27,7 +27,7 @@ const Hero = () => {
           <p>
             Pantau dan amankan bisnis Anda dengan sistem CCTV berkualitas dari ETS. Kami menyediakan berbagai pilihan paket CCTV yang sesuai dengan kebutuhan Anda.
           </p>
-          <a href="https://wa.me/085894194036" className={styles.ctaButton} target="_blank" rel="noopener noreferrer">Hubungi Kami Sekarang</a>
+          <a href="https://wa.me/+6285894194036" className={styles.ctaButton} target="_blank" rel="noopener noreferrer">Hubungi Kami Sekarang</a>
         </div>
         <div className={styles.image} ref={imageRef}>
           <img src={image} alt="CCTV" />

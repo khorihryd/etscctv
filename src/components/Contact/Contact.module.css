@@ -45,3 +45,15 @@
   font-size: 1.2rem;
   font-weight: bold;
 }
+
+@media (prefers-color-scheme:dark){
+	.contact {
+		background-color:var(--black);
+	}
+	.container h2 , .info p {
+		color:var(--title-dark);
+	}
+	.container p {
+		color:var(--subtitle-dark);
+	}
+}

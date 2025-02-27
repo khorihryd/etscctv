@@ -60,7 +60,7 @@ const Packages = () => {
 									<li key={i}>{feature}</li>
 								))}
 							</ul>
-							<a href="https://wa.me/085894194036" className={styles.ctaButton} target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+							<a href="https://wa.me/+6285894194036" className={styles.ctaButton} target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
 						</div>
 					))}
 				</div>

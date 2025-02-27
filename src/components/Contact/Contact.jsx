@@ -22,7 +22,7 @@ const Contact = () => {
 						Alamat: Jl. Raya Cileles Km.07 Kp. Cipandak Desa Muncang Kec. Kec. Cikulur
 					</p>
 				</div>
-				<a href="https://wa.me/085894194036" className={styles.ctaButton} target="_blank" rel="noopener noreferrer">WhatsApp</a>
+				<a href="https://wa.me/+6285894194036" className={styles.ctaButton} target="_blank" rel="noopener noreferrer">WhatsApp</a>
 			</div>
 		</section>
 	);

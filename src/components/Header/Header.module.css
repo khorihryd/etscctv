@@ -106,3 +106,21 @@
     display: block; /* Tampilkan tombol menu pada layar mobile */
   }
 }
+
+
+@media (prefers-color-scheme:dark){
+	.header {
+		background-color: var(--bg-dark);
+		color:var(--title-dark);
+	}
+	.logo h1,.navLink {
+		color:var(--title-dark);
+	}
+}
+
+@media (max-width: 760px) and  (prefers-color-scheme:dark){
+	.nav {
+		background-color: var(--bg-dark);
+		color:var(--title-dark);
+	}
+}

@@ -81,3 +81,32 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000000", en
     grid-template-columns: 1fr;
   }
 }
+
+
+@media (prefers-color-scheme:dark){
+	.package {
+		background-color: transparent;
+		border:2px solid var(--title-dark);
+		border-radius:1rem;
+	}
+	.package h3 {
+		color:var(--title-dark);
+	}
+	.package p {
+		color:var(--white);
+	}
+	.features li {
+		color :var(--subtitle-dark);
+	}
+	.packages {
+		background: hsla(0, 0%, 20%, 1);
+
+background: linear-gradient(0deg, hsla(0, 0%, 20%, 1) 0%, hsla(0, 0%, 40%, 1) 100%);
+
+background: -moz-linear-gradient(0deg, hsla(0, 0%, 20%, 1) 0%, hsla(0, 0%, 40%, 1) 100%);
+
+background: -webkit-linear-gradient(0deg, hsla(0, 0%, 20%, 1) 0%, hsla(0, 0%, 40%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#333333", endColorstr="#666666", GradientType=1 );
+	}
+}
